@@ -1,6 +1,7 @@
 /**
  * complete "Clever Progammer Dictionary" for the programming concepts, it works as keyword-description engine, 
  * you define the list of words and their description and once somebody search for a given word it will display 
+ * the descirption of the matched word
  * 
  */
 
