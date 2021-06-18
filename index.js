@@ -117,9 +117,9 @@ console.log(`Testing for class key ${dictionary.hasKey('object')}`);
 console.log(`Testing for class key ${dictionary.hasKey('apple')}`);
 console.log(`The size is ${dictionary.size()}`);
 console.log(`The size is ${dictionary.isEmpty()}`);
-console.log(`The removed is ${dictionary.remove("")}`);
+console.log(`The "" was removed: ${dictionary.remove("")}`);
 console.log(`The size is ${dictionary.size()}`);
-console.log(`The removed is ${dictionary.remove('class')}`);
+console.log(`The 'class' was removed: ${dictionary.remove('class')}`);
 console.log(`The size is ${dictionary.size()}`);
 dictionary.clear()
 console.log(`The dictionary is empty ${dictionary.isEmpty()}`);
