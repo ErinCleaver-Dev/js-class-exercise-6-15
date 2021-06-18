@@ -39,17 +39,19 @@ class Dictionary {
   }
 
   get(key) {
-    for(var term in this.table) {
-     if(term == key) {
-      return this.table[term].value;
-     }
+  
+    if(this.hasKey(key)) {
+      return this.table[key].value;
     }
+
     //return the value of that given key from the dictionary if found
     
   }
 
+
   hasKey(key) {
     let keyFound =false;
+    
     for(var term in this.table) {
       if(term == key) {
        keyFound = true;
